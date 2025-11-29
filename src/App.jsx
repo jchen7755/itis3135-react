@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Introduction from './pages/Introduction';
 import Contract from './pages/Contract';
+import Students from './pages/Students';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/introduction" element={<Introduction />} />
           <Route path="/contract" element={<Contract />} />
+          <Route path="/students" element={<Students />} />
         </Routes>
         <Footer />
       </div>
