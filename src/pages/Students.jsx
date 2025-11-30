@@ -21,11 +21,11 @@ export default function Students() {
           <div
             key={i}
             style={{
-              border: "1px solid #ccc",
+              border: "1px solid rgba(255, 180, 17, 1)",
               padding: "20px",
               borderRadius: "10px",
               marginBottom: "25px",
-              background: "#fafafa"
+              background: "rgb(255, 218, 139)"
             }}
           >
             {/* Name */}
