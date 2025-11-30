@@ -25,7 +25,7 @@ export default function Students() {
               padding: "20px",
               borderRadius: "10px",
               marginBottom: "25px",
-              background: "rgb(255, 218, 139)"
+              background: "rgba(255, 248, 225, 0.9)"
             }}
           >
             {/* Name */}
