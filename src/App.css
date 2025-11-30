@@ -4,14 +4,18 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .student-card {
-  border: 2px solid #5A5A5A;
+  border: 3px solid #5A5A5A;
   border-radius: 10px;
   padding: 20px;
-  background-color: rgba(255, 248, 225, 0.9);
+  background-color: rgba(255, 248, 225, 0.9); /* Matches your header color */
   transition: transform 0.2s ease;
+  margin-bottom: 25px;
 }
 
 .student-card:hover {
@@ -19,30 +23,66 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.student-card h3 {
+.student-card h2, .student-card h3 {
   margin-top: 0;
-  color: #333;
+  color: rgb(24, 20, 20); /* Matches your body text color */
   border-bottom: 2px solid #5A5A5A;
   padding-bottom: 10px;
+  text-align: center;
 }
 
-.student-image {
-  max-width: 100%;
+.student-card img {
+  max-width: 200px;
   height: auto;
-  max-height: 300px;
-  border-radius: 8px;
-  margin: 15px 0;
+  border-radius: 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px auto;
+  border: 2px solid #5A5A5A;
 }
 
-.student-info p {
+.student-card p {
   text-align: left;
   margin: 10px 0;
   line-height: 1.6;
+  color: rgb(24, 20, 20);
 }
 
-.student-info strong {
-  color: #5A5A5A;
+.student-card strong {
+  color: rgb(24, 20, 20);
+  font-weight: bold;
+}
+
+.student-card hr {
+  border: 1px solid #5A5A5A;
+  margin: 20px 0;
+}
+
+.student-card ul {
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(20, 20, 20);
+}
+
+.student-card li {
+  margin-bottom: 8px;
+}
+
+.student-card blockquote {
+  border-left: 4px solid #5A5A5A;
+  padding-left: 15px;
+  margin: 15px 0;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.student-card a {
+  color: darkslategray; /* Matches your link color */
+  text-decoration: none;
+}
+
+.student-card a:hover {
+  color: rgb(65, 122, 237); /* Matches your hover color */
+  text-decoration: underline;
 }
